@@ -17,13 +17,9 @@ h1 {
   height: 250px;
   margin-bottom: 30px;
 }
-.row1 {
-  /* background-color: red; */
-}
 .card {
   height: 250px;
   width: 200px;
-  background-color: blue;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-image: url(../img/pattern.png);
@@ -33,7 +29,31 @@ h1 {
   margin-right: 20px;
 }
 .card1 {
-  background-image: url(../img/pattern.png);
-  background-position: center;
-  background-size: contain;
+  margin: auto;
+  display: inline-block;
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+#immagine1 {
+  height: 195px;
+  width: 200px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+}
+.tractor1 {
+  text-align: center;
+  color: orange;
+  background-color: white;
+  display: block;
+  font-size: 32px;
+  text-shadow: 1px 1px 4px #000001;
+}
+.card .card1 {
+    visibility: hidden;
+}
+.card:hover .card1 {
+  visibility: visible;
 }
