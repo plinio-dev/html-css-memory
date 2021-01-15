@@ -13,17 +13,27 @@ h1 {
 }
 .row {
   margin: auto;
-  width: 1600px;
+  width: 48%;
   height: 250px;
   margin-bottom: 30px;
 }
 .row1 {
-  background-color: red;
+  /* background-color: red; */
 }
 .card {
   height: 250px;
   width: 200px;
   background-color: blue;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(../img/pattern.png);
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 20px;
+}
+.card1 {
+  background-image: url(../img/pattern.png);
+  background-position: center;
+  background-size: contain;
 }
