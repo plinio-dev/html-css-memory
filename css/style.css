@@ -1,3 +1,4 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -5,19 +6,21 @@
   font-family:'Nerko One', cursive;
   background-color: #ADD8E6;
 }
+/* end reset */
 h1 {
   font-size: 80px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
 }
+/* titolo footer */
 h5 {
   font-size: 20px;
   color: black;
-  /* text-shadow: 2px 2px 4px #000000; */
   text-align: center;
   margin-bottom: 30px;
 }
+/* inizio corpo */
 .row {
   margin: auto;
   width: 48%;
@@ -85,4 +88,4 @@ h5 {
 #back {
   background-color: white;
   border-radius: 10px;
-}
+/* end corpo */
